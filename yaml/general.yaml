@@ -1,0 +1,76 @@
+# defines data types for fields in the general payments file
+'Change_Type': 'category'
+'Covered_Recipient_Type': 'category'
+'Teaching_Hospital_CCN': 'category' # treat IDs as categories
+'Teaching_Hospital_ID': 'category' # treat IDs as categories
+'Teaching_Hospital_Name': object
+'Physician_Profile_ID': 'category' # treat IDs as categories
+'Physician_First_Name': object
+'Physician_Middle_Name': object
+'Physician_Last_Name': object
+'Physician_Name_Suffix': object
+'Recipient_Primary_Business_Street_Address_Line1': object
+'Recipient_Primary_Business_Street_Address_Line2': object
+'Recipient_City': 'category' # high cardinality
+'Recipient_State': 'category' # med cardinality
+'Recipient_Zip_Code': 'category' # high cardinality
+'Recipient_Country': 'category'
+'Recipient_Province': 'category'
+'Recipient_Postal_Code': 'category'
+'Physician_Primary_Type': 'category'
+'Physician_Specialty': 'category' # high cardinality
+'Physician_License_State_code1': 'category' # med cardinality
+'Physician_License_State_code2': 'category' # med cardinality
+'Physician_License_State_code3': 'category' # med cardinality
+'Physician_License_State_code4': 'category' # med cardinality
+'Physician_License_State_code5': 'category' # med cardinality
+'Submitting_Applicable_Manufacturer_or_Applicable_GPO_Name': 'category'
+'Applicable_Manufacturer_or_Applicable_GPO_Making_Payment_ID': 'category' # treat IDs as categories
+'Applicable_Manufacturer_or_Applicable_GPO_Making_Payment_Name': 'category'
+'Applicable_Manufacturer_or_Applicable_GPO_Making_Payment_State': 'category' # med cardinality
+'Applicable_Manufacturer_or_Applicable_GPO_Making_Payment_Country': 'category'
+'Total_Amount_of_Payment_USDollars': float
+'Date_of_Payment': object
+'Number_of_Payments_Included_in_Total_Amount': int
+'Form_of_Payment_or_Transfer_of_Value': 'category'
+'Nature_of_Payment_or_Transfer_of_Value': object
+'City_of_Travel': 'category'
+'State_of_Travel': 'category'
+'Country_of_Travel': 'category'
+'Physician_Ownership_Indicator': 'category'
+'Third_Party_Payment_Recipient_Indicator': 'category'
+'Name_of_Third_Party_Entity_Receiving_Payment_or_Transfer_of_Value': object
+'Charity_Indicator': 'category'
+'Third_Party_Equals_Covered_Recipient_Indicator': 'category'
+'Contextual_Information': object
+'Delay_in_Publication_Indicator': 'category'
+'Record_ID': 'category' # treat IDs as categories
+'Dispute_Status_for_Publication': 'category' # very imbalanced categories
+'Related_Product_Indicator': 'category'
+'Covered_or_Noncovered_Indicator_1': 'category'
+'Indicate_Drug_or_Biological_or_Device_or_Medical_Supply_1': 'category'
+'Product_Category_or_Therapeutic_Area_1': 'category'
+'Name_of_Drug_or_Biological_or_Device_or_Medical_Supply_1': 'category'
+'Associated_Drug_or_Biological_NDC_1': 'category'
+'Covered_or_Noncovered_Indicator_2': 'category'
+'Indicate_Drug_or_Biological_or_Device_or_Medical_Supply_2': 'category'
+'Product_Category_or_Therapeutic_Area_2': 'category'
+'Name_of_Drug_or_Biological_or_Device_or_Medical_Supply_2': 'category'
+'Associated_Drug_or_Biological_NDC_2': 'category'
+'Covered_or_Noncovered_Indicator_3': 'category'
+'Indicate_Drug_or_Biological_or_Device_or_Medical_Supply_3': 'category'
+'Product_Category_or_Therapeutic_Area_3': 'category'
+'Name_of_Drug_or_Biological_or_Device_or_Medical_Supply_3': 'category'
+'Associated_Drug_or_Biological_NDC_3': 'category'
+'Covered_or_Noncovered_Indicator_4': 'category'
+'Indicate_Drug_or_Biological_or_Device_or_Medical_Supply_4': 'category'
+'Product_Category_or_Therapeutic_Area_4': 'category'
+'Name_of_Drug_or_Biological_or_Device_or_Medical_Supply_4': 'category'
+'Associated_Drug_or_Biological_NDC_4': 'category'
+'Covered_or_Noncovered_Indicator_5': 'category'
+'Indicate_Drug_or_Biological_or_Device_or_Medical_Supply_5': 'category'
+'Product_Category_or_Therapeutic_Area_5': 'category'
+'Name_of_Drug_or_Biological_or_Device_or_Medical_Supply_5': 'category'
+'Associated_Drug_or_Biological_NDC_5': 'category'
+'Program_Year': 'category'
+'Payment_Publication_Date': object

@@ -1,0 +1,30 @@
+# defines data types for fields in the physician ownership file
+'Change_Type': 'category'
+'Physician_Profile_ID': 'category' # treat IDs as categories
+'Physician_First_Name': object
+'Physician_Middle_Name': object
+'Physician_Last_Name': object
+'Physician_Name_Suffix': object
+'Recipient_Primary_Business_Street_Address_Line1': object
+'Recipient_Primary_Business_Street_Address_Line2': object
+'Recipient_City': 'category' # high cardinality
+'Recipient_State': 'category' # med cardinality
+'Recipient_Zip_Code': 'category' # high cardinality
+'Recipient_Country': 'category'
+'Recipient_Province': 'category'
+'Recipient_Postal_Code': 'category'
+'Physician_Primary_Type': 'category'
+'Physician_Specialty': 'category' # high cardinality
+'Record_ID': 'category' # treat IDs as categories
+'Program_Year': 'category'
+'Total_Amount_Invested_USDollars': float
+'Value_of_Interest': float
+'Terms_of_Interest': object
+'Submitting_Applicable_Manufacturer_or_Applicable_GPO_Name': 'category'
+'Applicable_Manufacturer_or_Applicable_GPO_Making_Payment_ID': 'category' # treat IDs as categories
+'Applicable_Manufacturer_or_Applicable_GPO_Making_Payment_Name': 'category'
+'Applicable_Manufacturer_or_Applicable_GPO_Making_Payment_State': 'category' # med cardinality
+'Applicable_Manufacturer_or_Applicable_GPO_Making_Payment_Country': 'category'
+'Dispute_Status_for_Publication': 'category'
+'Interest_Held_by_Physician_or_an_Immediate_Family_Member': 'category'
+'Payment_Publication_Date': object
